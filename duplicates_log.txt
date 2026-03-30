@@ -1,0 +1,920 @@
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image42.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image42.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image151.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image151.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image104.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image104.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image60.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image60.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image125.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image125.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image100.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image100.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image128.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image128.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image107.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image107.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image51.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image51.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image23.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image23.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image105.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image105.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image125.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image125.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image121.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image121.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image25.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image25.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image127.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image127.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image9.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image9.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image156.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image156.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image2.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image2.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image39.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image39.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image135.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image135.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image112.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image112.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image34.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image34.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image5.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image5.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image23.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image23.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image61.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image61.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image13.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image13.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image58.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image58.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image89.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image89.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image13.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image13.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image14.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image14.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image85.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image85.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image86.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image86.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image108.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image108.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image118.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image118.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image50.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image50.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image33.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image33.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image71.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image71.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image40.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image40.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image119.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image119.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image57.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image57.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image103.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image103.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image66.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image66.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image47.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image47.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image68.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image68.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image93.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image93.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image63.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image63.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image18.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image18.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image17.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image17.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image129.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image129.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image89.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image89.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image70.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image70.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image143.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image143.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image114.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image114.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image141.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image141.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image117.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image117.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image69.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image69.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image48.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image48.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image48.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image48.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image139.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image139.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image94.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image94.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image81.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image81.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image57.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image57.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image44.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image44.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image27.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image27.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image34.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image34.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image135.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image135.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image93.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image93.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image15.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image15.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image71.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image71.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image45.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image45.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image102.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image102.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image35.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image35.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image77.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image77.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image101.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image101.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image46.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image46.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image76.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image76.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image90.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image90.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image109.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image109.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image22.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image22.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image150.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image150.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image6.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image6.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image7.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image7.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image21.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image21.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image108.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image108.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image29.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image29.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image8.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image8.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image115.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image115.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image81.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image81.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image54.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image54.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image117.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image117.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image97.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image97.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image99.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image99.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image130.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image130.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image49.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image49.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image116.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image116.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image10.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image10.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\api\models.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Service_Provider\models.py
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image8.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image8.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image11.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image11.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image16.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image16.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image37.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image37.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image60.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image60.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image146.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image146.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image107.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image107.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image37.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image37.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image54.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image54.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image35.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image35.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image4.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image4.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image68.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image68.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image24.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image24.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image50.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image50.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image140.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image140.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image104.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image104.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image131.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image131.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image19.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image19.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image106.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image106.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image19.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image19.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image128.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image128.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image88.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image88.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image75.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image75.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image98.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image98.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image66.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image66.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image52.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image52.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image140.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image140.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image137.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image137.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image32.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image32.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image79.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image79.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image29.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image29.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image26.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image26.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image58.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image58.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image149.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image149.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image95.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image95.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image110.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image110.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image2.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image2.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image132.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image132.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image123.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image123.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image79.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image79.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image122.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image122.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image6.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image6.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image75.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image75.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image77.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image77.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image55.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image55.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image36.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image36.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image70.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image70.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image28.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image28.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image132.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image132.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image0.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_Ischemic1.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image133.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image133.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image74.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image74.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image134.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image134.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image155.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image155.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image25.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image25.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image1.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image1.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image87.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image87.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image144.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image144.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image12.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image12.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image74.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image74.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image139.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image139.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image67.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image67.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image73.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image73.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image65.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image65.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image84.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image84.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image47.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image47.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image113.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image113.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image20.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image20.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image56.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image56.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image59.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image59.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image102.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image102.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image5.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image5.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image10.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image10.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image83.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image83.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image72.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image72.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image136.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image136.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image126.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image126.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image92.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image92.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image101.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image101.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\api\tests.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Remote_User\tests.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Service_Provider\tests.py
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image147.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image147.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image141.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image141.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image3.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image3.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image92.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image92.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image80.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image80.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image16.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image16.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image148.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image148.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image83.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image83.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image43.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image43.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image31.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image31.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image85.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image85.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image67.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image67.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image91.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image91.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image129.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image129.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image33.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image33.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image98.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image98.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image120.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image120.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image111.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image111.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image20.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image20.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image7.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image7.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image59.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image59.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image1.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image1.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image78.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image78.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image32.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image32.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image84.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image84.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image21.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image21.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image3.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image3.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image14.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image14.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image39.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image39.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image154.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image154.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\api\admin.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Remote_User\admin.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Service_Provider\admin.py
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image62.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image62.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image142.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image142.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image94.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image94.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image118.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image118.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image123.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image123.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image124.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image124.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image46.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image46.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image136.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image136.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image28.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image28.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image137.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image137.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image38.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image38.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image114.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image114.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image42.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image42.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image18.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image18.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image63.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image63.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image116.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image116.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image9.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image9.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image112.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image112.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image100.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image100.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image91.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image91.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image24.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image24.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image65.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image65.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image51.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image51.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image78.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image78.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image130.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image130.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image111.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image111.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image40.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image40.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image43.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image43.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image26.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image26.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image41.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image41.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image30.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image30.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image4.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image4.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image82.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image82.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image80.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image80.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image95.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image95.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image17.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image17.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image53.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image53.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image145.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image145.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image138.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image138.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image73.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image73.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image27.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image27.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image64.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image64.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image124.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image124.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image113.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image113.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image127.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image127.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image22.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image22.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image15.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image15.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image103.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image103.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image44.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image44.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image72.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image72.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image53.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image53.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image110.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image110.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image133.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image133.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image45.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image45.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image11.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image11.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image88.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image88.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image109.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image109.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\requirements_advanced.txt
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\api\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\deep_learning\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\explainable_ai\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\real_time\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\advanced_features\utils\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\api\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\api\migrations\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Remote_User\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Remote_User\migrations\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Service_Provider\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\Service_Provider\migrations\__init__.py
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_risk_prediction\__init__.py
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image153.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image153.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image96.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image96.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image41.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image41.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image64.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image64.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image30.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image30.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image90.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image90.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image105.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image105.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image96.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image96.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image62.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image62.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image119.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image119.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image87.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image87.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image56.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image56.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image134.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image134.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image69.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image69.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image82.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image82.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image152.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image152.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image52.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image52.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image138.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image138.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image31.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image31.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image120.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image120.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image49.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image49.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image55.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image55.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image115.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image115.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image126.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image126.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image99.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image99.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image86.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image86.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image131.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image131.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image122.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image122.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image97.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image97.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image76.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image76.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image61.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image61.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image106.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image106.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image121.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image121.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image36.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image36.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\ischemic\image12.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\ischemic\ischemic_image12.jpg
+--- Duplicate Group ---
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\stroke_samples\Brain-stroke-dataset\dataset\hemorrhagic\image38.jpg
+C:\Users\MD ROSHAN\OneDrive\Desktop\NeuroGuardian-main\test_images\hemorrhagic\hemorrhagic_image38.jpg
