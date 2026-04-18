@@ -95,18 +95,19 @@ export const predictStroke = async (patientData) => {
 export const uploadScan = async (file) => {
     const formData = new FormData();
     formData.append('scan', file);
-    
+
     try {
         const response = await api.post('upload-scan/', formData, {
-            headers: {
-                'Content-Type': 'multipart/form-data',
-            },
+            headers: { 'Content-Type': 'multipart/form-data' },
+            timeout: 120000, // 2 min — ML processing
         });
         return response.data;
     } catch (error) {
         throw error;
     }
 };
+// NOTE: Firestore read/write is handled by src/services/firestoreService.js
+//       directly in the React component — no Django relay needed.
 
 // ========== HISTORY API CALLS ==========
 

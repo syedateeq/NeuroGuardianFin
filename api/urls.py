@@ -14,8 +14,11 @@ urlpatterns = [
     path('predict/', views.predict, name='predict'),
     path('history/', views.get_history, name='history'),
     path('stats/', views.get_stats, name='stats'),
-    
+
     # Scan Upload and Hospitals
     path('upload-scan/', views.upload_scan, name='upload_scan'),
     path('hospitals/', views.get_hospitals, name='get_hospitals'),
-]
+
+    # Firebase Storage — store image URL sent from React frontend
+    path('upload-image/', views.upload_image_url, name='upload_image_url'),
+]

@@ -1,0 +1,51 @@
+// Firebase Storage Security Rules for NeuroGuardianFin
+// Project: neuroguardianfin
+// Bucket:  neuroguardianfin.firebasestorage.app
+//
+// Deploy with:
+//   firebase deploy --only storage
+//
+// Rules summary:
+//   • brain_scans/   — anyone can upload images ≤ 20 MB (public scan analysis)
+//   • profile_images/ — anyone can upload images ≤ 5 MB
+//   • Public READ is allowed on all files (so download URLs work without auth)
+//   • All other paths are denied
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // ── Brain scan uploads ────────────────────────────────────────────────
+    match /brain_scans/{fileName} {
+      // Allow public read (getDownloadURL() works without sign-in)
+      allow read: if true;
+
+      // Allow write for image files ≤ 20 MB
+      allow write: if request.resource.size <= 20 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+
+    // ── Profile image uploads ─────────────────────────────────────────────
+    match /profile_images/{fileName} {
+      // Allow public read
+      allow read: if true;
+
+      // Allow write for image files ≤ 5 MB
+      allow write: if request.resource.size <= 5 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+
+    // ── General uploads folder ────────────────────────────────────────────
+    match /uploads/{fileName} {
+      allow read: if true;
+
+      // Allow any file ≤ 50 MB
+      allow write: if request.resource.size <= 50 * 1024 * 1024;
+    }
+
+    // ── Deny everything else ──────────────────────────────────────────────
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

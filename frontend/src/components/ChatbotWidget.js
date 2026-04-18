@@ -1,9 +1,13 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 
 // ─── Gemini API config ───────────────────────────────────────────────────────
-const GEMINI_API_KEY = 'Ab8RN6IusSM30pGWyGGmWJ985c4qgx7vUm5Z9kCWM6qRaWMbcg';
+const GEMINI_API_KEY = 'AIzaSyClzFcHWd4ChPUC9XHoBnSmhYsYHsS6xko';
 const GEMINI_URL =
-  `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+  `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
+
+// ─── DeepSeek API config ─────────────────────────────────────────────────────
+const DEEPSEEK_API_KEY = 'sk-688a1b235c304c7681470f5a3cc5ada0';
+const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 
 // ─── System prompt ───────────────────────────────────────────────────────────
 const SYSTEM_CONTEXT = `You are NeuroBot, a friendly and professional AI support assistant for NeuroGuardian — an advanced AI-powered stroke risk prediction and brain scan analysis platform.
@@ -22,14 +26,29 @@ Respond naturally as if chatting. Be warm but concise.`;
 
 // ─── Call Gemini ─────────────────────────────────────────────────────────────
 async function callGemini(messages) {
-  const contents = messages.map((m) => ({
-    role: m.role === 'bot' ? 'model' : 'user',
-    parts: [{ text: m.text }],
-  }));
+  // Build conversation turns — user/model alternating
+  const turns = [];
+
+  // Inject system context as the very first user+model pair
+  turns.push({
+    role: 'user',
+    parts: [{ text: `[SYSTEM] ${SYSTEM_CONTEXT}\n\n[USER] ${messages[0]?.text || 'Hello'}` }],
+  });
+  turns.push({
+    role: 'model',
+    parts: [{ text: "Hello! I'm NeuroBot, your AI assistant for NeuroGuardian. How can I help you today?" }],
+  });
+
+  // Append remaining conversation history
+  messages.forEach((m) => {
+    turns.push({
+      role: m.role === 'bot' ? 'model' : 'user',
+      parts: [{ text: m.text }],
+    });
+  });
 
   const body = {
-    system_instruction: { parts: [{ text: SYSTEM_CONTEXT }] },
-    contents,
+    contents: turns,
     generationConfig: {
       temperature: 0.7,
       maxOutputTokens: 300,
@@ -37,19 +56,78 @@ async function callGemini(messages) {
     },
   };
 
+  console.log('[NeuroBot] Calling Gemini 2.0 Flash...');
+
   const res = await fetch(GEMINI_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
   });
 
+  const rawText = await res.text();
+  console.log(`[NeuroBot] Response ${res.status}:`, rawText);
+
   if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`Gemini error ${res.status}: ${err}`);
+    throw new Error(`Gemini ${res.status}: ${rawText}`);
   }
 
-  const data = await res.json();
-  return data?.candidates?.[0]?.content?.parts?.[0]?.text || 'Sorry, I could not generate a response.';
+  const data = JSON.parse(rawText);
+  const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) throw new Error('Empty response from Gemini');
+  return text;
+}
+
+// ─── Call DeepSeek ───────────────────────────────────────────────────────────
+async function callDeepSeek(messages) {
+  const turns = [{ role: 'system', content: SYSTEM_CONTEXT }];
+
+  messages.forEach((m) => {
+    turns.push({
+      role: m.role === 'bot' ? 'assistant' : 'user',
+      content: m.text,
+    });
+  });
+
+  const body = {
+    model: 'deepseek-chat',
+    messages: turns,
+    temperature: 0.7,
+    max_tokens: 300,
+    top_p: 0.9,
+  };
+
+  console.log('[NeuroBot] Calling DeepSeek...');
+
+  const res = await fetch(DEEPSEEK_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
+    },
+    body: JSON.stringify(body),
+  });
+
+  const rawText = await res.text();
+  console.log(`[NeuroBot] DeepSeek Response ${res.status}:`, rawText);
+
+  if (!res.ok) {
+    throw new Error(`DeepSeek ${res.status}: ${rawText}`);
+  }
+
+  const data = JSON.parse(rawText);
+  const text = data?.choices?.[0]?.message?.content;
+  if (!text) throw new Error('Empty response from DeepSeek');
+  return text;
+}
+
+// ─── AI Router Wrapper ───────────────────────────────────────────────────────
+async function callAI(messages) {
+  try {
+    return await callGemini(messages);
+  } catch (error) {
+    console.warn('[NeuroBot] Gemini failed, falling back to DeepSeek:', error.message);
+    return await callDeepSeek(messages);
+  }
 }
 
 // ─── Styles ──────────────────────────────────────────────────────────────────
@@ -425,18 +503,19 @@ export default function ChatbotWidget() {
         text: m.text,
       }));
 
-      const reply = await callGemini(history);
+      const reply = await callAI(history);
       setMessages((prev) => [
         ...prev,
         { id: Date.now() + 1, role: 'bot', text: reply, time: new Date() },
       ]);
     } catch (err) {
+      console.error('[NeuroBot] sendMessage error:', err);
       setMessages((prev) => [
         ...prev,
         {
           id: Date.now() + 1,
           role: 'bot',
-          text: "I'm having trouble connecting right now. Please try again in a moment, or contact support at support@neuroguardian.ai 🙏",
+          text: `⚠️ Error: ${err.message || 'Unknown error'}. Check browser console (F12) for details.`,
           time: new Date(),
         },
       ]);

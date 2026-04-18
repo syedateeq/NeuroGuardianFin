@@ -14,6 +14,8 @@ class ClientRegister_Model(models.Model):
     city = models.CharField(max_length=100, blank=True, null=True)
     address = models.CharField(max_length=500, blank=True, null=True)
     gender = models.CharField(max_length=30, blank=True, null=True)
+    # Firebase Storage image URL
+    profile_image = models.URLField(max_length=2000, blank=True, null=True)
 
 
 class stroke_risk_prediction_type(models.Model):

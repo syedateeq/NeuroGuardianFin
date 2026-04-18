@@ -329,7 +329,7 @@ def get_winning_classifier():
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register(request):
-    """Register a new user"""
+    """Register a new user — accepts optional profile_image_url (Firebase Storage URL)"""
     username = request.data.get('username')
     email = request.data.get('email')
     password = request.data.get('password')
@@ -339,28 +339,30 @@ def register(request):
     city = request.data.get('city')
     address = request.data.get('address')
     gender = request.data.get('gender')
-    
+    # Firebase Storage – optional profile image URL uploaded by the React frontend
+    profile_image_url = request.data.get('profile_image_url', None)
+
     if not username or not password:
         return Response({
             'success': False,
             'error': 'Username and password required'
         }, status=status.HTTP_400_BAD_REQUEST)
-    
+
     # Check if user exists
     if User.objects.filter(username=username).exists():
         return Response({
             'success': False,
             'error': 'Username already exists'
         }, status=status.HTTP_400_BAD_REQUEST)
-    
-    # Create user
+
+    # Create Django auth user
     user = User.objects.create_user(
         username=username,
         email=email,
         password=password
     )
-    
-    # Create patient profile
+
+    # Create patient profile (store Firebase image URL if provided)
     patient = ClientRegister_Model.objects.create(
         username=username,
         email=email,
@@ -370,12 +372,13 @@ def register(request):
         state=state,
         city=city,
         address=address,
-        gender=gender
+        gender=gender,
+        profile_image=profile_image_url  # persists Firebase Storage URL
     )
-    
-    # Generate token
+
+    # Generate JWT token
     refresh = RefreshToken.for_user(user)
-    
+
     return Response({
         'success': True,
         'message': 'User registered successfully',
@@ -383,6 +386,7 @@ def register(request):
             'user_id': user.id,
             'username': user.username,
             'email': user.email,
+            'profile_image': profile_image_url,
             'access_token': str(refresh.access_token),
             'refresh_token': str(refresh)
         }
@@ -562,88 +566,115 @@ def predict(request):
 @permission_classes([AllowAny])
 def upload_scan(request):
     """
-    Upload a brain scan using SIMPLE WINNING model with REAL processing
-    Frontend shows 8 steps while backend actually works
+    Upload a brain scan for stroke analysis.
+
+    Supports two upload modes:
+      1. JSON body with {"scan_url": "<firebase_download_url>", "file_name": "..."}
+         – image was uploaded to Firebase Storage by the React frontend.
+      2. Multipart form-data with a 'scan' file field (legacy / direct upload).
     """
-    # Start global timer for total processing
     global_start = time.time()
-    
+
     try:
-        # ============================================
-        # START ACTUAL PROCESSING (NO ARTIFICIAL SLEEPS)
-        # ============================================
         print("\n" + "="*70)
         print("[BRAIN] STROKE ANALYSIS STARTED - REAL PROCESSING IN PROGRESS")
         print("="*70)
         print(f"[INFO] Patient: {request.user.username if request.user.is_authenticated else 'Guest'}")
         print(f"[TIME] Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*70)
-        
-        # Check if file was uploaded
-        if 'scan' not in request.FILES:
-            print("[ERROR] ERROR: No scan file provided")
+
+        # ── MODE 1: Firebase URL in JSON body ────────────────────────────────
+        scan_url = request.data.get('scan_url', None)
+        if scan_url:
+            import urllib.request as _urllib_req
+            file_name = request.data.get('file_name', 'firebase_scan')
+            file_size_bytes = request.data.get('file_size', 0)
+            file_size = file_size_bytes / (1024 * 1024)  # MB
+
+            print(f"[FILE] Firebase URL received: {file_name} ({file_size:.2f} MB)")
+            print(f"[FIREBASE] Download URL: {scan_url[:80]}...")
+
+            # Download the file from Firebase Storage to a temp location
+            temp_dir = os.path.join(settings.BASE_DIR, 'temp_uploads')
+            os.makedirs(temp_dir, exist_ok=True)
+
+            safe_name = os.path.splitext(file_name)[0].replace(' ', '_')
+            ext = os.path.splitext(file_name)[1] or '.png'
+            temp_path = os.path.join(
+                temp_dir,
+                f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{safe_name}{ext}"
+            )
+
+            _urllib_req.urlretrieve(scan_url, temp_path)
+            print(f"      [OK] File downloaded from Firebase to {temp_path}")
+
+        # ── MODE 2: Legacy multipart file upload ─────────────────────────────
+        elif 'scan' in request.FILES:
+            scan_file = request.FILES['scan']
+            file_name = scan_file.name
+            file_size = scan_file.size / (1024 * 1024)  # MB
+            scan_url = None  # not a Firebase upload
+
+            print(f"[FILE] Direct file received: {file_name} ({file_size:.2f} MB)")
+
+            max_size = 50 * 1024 * 1024
+            if scan_file.size > max_size:
+                return Response({
+                    'success': False,
+                    'error': 'File too large. Max size: 50MB'
+                }, status=status.HTTP_400_BAD_REQUEST)
+
+            temp_dir = os.path.join(settings.BASE_DIR, 'temp_uploads')
+            os.makedirs(temp_dir, exist_ok=True)
+
+            safe_name = os.path.splitext(file_name)[0].replace(' ', '_')
+            temp_path = os.path.join(
+                temp_dir,
+                f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{safe_name}{os.path.splitext(file_name)[1]}"
+            )
+
+            with open(temp_path, 'wb+') as destination:
+                for chunk in scan_file.chunks():
+                    destination.write(chunk)
+
+            print(f"      [OK] File saved to temp location")
+
+        else:
+            print("[ERROR] No scan file or Firebase URL provided")
             return Response({
                 'success': False,
-                'error': 'No scan file provided'
+                'error': 'Provide either a scan file or a Firebase Storage scan_url'
             }, status=status.HTTP_400_BAD_REQUEST)
-        
-        scan_file = request.FILES['scan']
-        file_name = scan_file.name
-        file_size = scan_file.size / (1024 * 1024)  # MB
-        
-        print(f"[FILE] File received: {file_name} ({file_size:.2f} MB)")
-        
-        # Validate file size
-        max_size = 50 * 1024 * 1024
-        if scan_file.size > max_size:
-            print(f"[ERROR] ERROR: File too large: {file_size:.2f}MB > 50MB")
-            return Response({
-                'success': False,
-                'error': f'File too large. Max size: 50MB'
-            }, status=status.HTTP_400_BAD_REQUEST)
-        
+
         # STEP 1: Initializing Models - Actually load models (takes real time)
         print("\n[1/8] 🔄 INITIALIZING NEURAL NETWORK ENSEMBLE...")
         print("      • Loading Swin Transformer weights (86MB)")
         print("      • Loading UNet architecture (42MB)")
         print("      • Loading ResNet34 model (58MB)")
-        
+
         # ACTUAL WORK: Get models (this takes real time)
         step_start = time.time()
         model = get_winning_model()
         classifier = get_winning_classifier()
         step_time = time.time() - step_start
-        
+
         if model is None or classifier is None:
             print("[ERROR] ERROR: AI models not available")
             return Response({
                 'success': False,
                 'error': 'AI models not available'
             }, status=status.HTTP_503_SERVICE_UNAVAILABLE)
-        
+
         print(f"      [OK] Models loaded successfully in {step_time:.2f} seconds")
-        
-        # STEP 2: Loading Scan Data - Actually save and parse file (takes real time)
+
+        # STEP 2: Loading Scan Data — file is already at temp_path
         print("\n[2/8] [STATS] LOADING SCAN DATA...")
         print(f"      • Parsing DICOM/NIfTI format: {file_name}")
         print(f"      • File size: {file_size:.2f} MB")
         print("      • Extracting 3D volume data")
-        
-        # ACTUAL WORK: Save file to temp location
-        step_start = time.time()
-        temp_dir = os.path.join(settings.BASE_DIR, 'temp_uploads')
-        os.makedirs(temp_dir, exist_ok=True)
-        
-        # Create safe filename with timestamp
-        safe_name = os.path.splitext(file_name)[0].replace(' ', '_')
-        temp_path = os.path.join(temp_dir, f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{safe_name}{os.path.splitext(file_name)[1]}")
-        
-        with open(temp_path, 'wb+') as destination:
-            for chunk in scan_file.chunks():
-                destination.write(chunk)
-        
+
         file_save_time = time.time() - step_start
-        print(f"      [OK] File saved to temp location in {file_save_time:.2f} seconds")
+        print(f"      [OK] File ready at temp location in {file_save_time:.2f} seconds")
         
         print("      • Normalizing pixel intensities")
         print("      • Resampling to 1mm³ resolution")
@@ -1191,3 +1222,69 @@ def health_check(request):
         'winning_model_available': winning_model is not None,
         'api_version': '2.0.0'
     })
+
+
+# ============================================================================
+# FIREBASE STORAGE — IMAGE URL STORAGE
+# ============================================================================
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def upload_image_url(request):
+    """
+    Accept a Firebase Storage download URL from the React frontend and persist it
+    in the user's ClientRegister_Model.profile_image field.
+
+    Request body (JSON):
+        {
+            "image_url": "<firebase_download_url>",
+            "username": "<username>"          # required when unauthenticated
+        }
+
+    Response:
+        { "success": true, "image_url": "<url>", "username": "<username>" }
+    """
+    image_url = request.data.get('image_url')
+    if not image_url:
+        return Response({
+            'success': False,
+            'error': 'image_url is required'
+        }, status=status.HTTP_400_BAD_REQUEST)
+
+    # Resolve the user: prefer JWT-authenticated user, fall back to username param
+    if request.user.is_authenticated:
+        username = request.user.username
+    else:
+        username = request.data.get('username')
+        if not username:
+            return Response({
+                'success': False,
+                'error': 'username is required when not authenticated'
+            }, status=status.HTTP_400_BAD_REQUEST)
+
+    try:
+        patient = ClientRegister_Model.objects.get(username=username)
+        patient.profile_image = image_url
+        patient.save(update_fields=['profile_image'])
+
+        logger.info(f"Firebase image URL saved for user: {username}")
+
+        return Response({
+            'success': True,
+            'message': 'Profile image URL saved successfully',
+            'image_url': image_url,
+            'username': username
+        })
+
+    except ClientRegister_Model.DoesNotExist:
+        return Response({
+            'success': False,
+            'error': f'User "{username}" not found'
+        }, status=status.HTTP_404_NOT_FOUND)
+
+    except Exception as e:
+        logger.error(f"upload_image_url error: {e}")
+        return Response({
+            'success': False,
+            'error': str(e)
+        }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
