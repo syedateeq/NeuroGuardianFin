@@ -1,13 +1,61 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 
 // ─── Gemini API config ───────────────────────────────────────────────────────
-const GEMINI_API_KEY = 'AIzaSyClzFcHWd4ChPUC9XHoBnSmhYsYHsS6xko';
+const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY || '';
+if (!GEMINI_API_KEY) console.warn('[NeuroBot] ⚠️ REACT_APP_GEMINI_API_KEY is not set in .env');
 const GEMINI_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
 // ─── DeepSeek API config ─────────────────────────────────────────────────────
-const DEEPSEEK_API_KEY = 'sk-688a1b235c304c7681470f5a3cc5ada0';
+const DEEPSEEK_API_KEY = process.env.REACT_APP_DEEPSEEK_API_KEY || '';
+if (!DEEPSEEK_API_KEY) console.warn('[NeuroBot] ⚠️ REACT_APP_DEEPSEEK_API_KEY is not set in .env');
 const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
+
+// ─── Local smart fallback responses ──────────────────────────────────────────
+const FALLBACK_RESPONSES = [
+  {
+    keywords: ['stroke', 'predict', 'risk', 'prediction'],
+    reply: "**Stroke Risk Prediction** is NeuroGuardian's core feature! 🧠\n\nGo to **Dashboard → Predict Stroke Risk**, fill in your clinical details (age, blood pressure, glucose level, BMI), and our AI model will instantly assess your risk level.",
+  },
+  {
+    keywords: ['scan', 'upload', 'brain', 'mri', 'ct', 'dicom'],
+    reply: "To **upload a brain scan**, navigate to **Dashboard → Upload Scan**. 🏥\n\nWe support MRI, CT, DICOM (.dcm), and NIfTI (.nii) formats. Our AI will analyze the scan and highlight any potential stroke lesions.",
+  },
+  {
+    keywords: ['hospital', 'nearby', 'find', 'location', 'clinic'],
+    reply: "NeuroGuardian's **Hospital Finder** shows stroke-ready hospitals near you using your GPS location. 📍\n\nGo to **Dashboard → Find Hospitals** and allow location access to see the nearest facilities.",
+  },
+  {
+    keywords: ['register', 'signup', 'sign up', 'create account'],
+    reply: "To create an account, click **Register** on the homepage. 📝\n\nFill in your name, email, and password — you'll be logged in within seconds and can access all NeuroGuardian features.",
+  },
+  {
+    keywords: ['login', 'sign in', 'password', 'account', 'forgot'],
+    reply: "Click **Login** on the top navigation bar and enter your credentials. 🔐\n\nIf you've forgotten your password, contact support at support@neuroguardian.ai and we'll help you reset it.",
+  },
+  {
+    keywords: ['history', 'past', 'previous', 'record', 'report'],
+    reply: "Your **Prediction History** is saved automatically after every scan or risk assessment. 📊\n\nGo to **Dashboard → History** to review past results, view medical reports, and track your health over time.",
+  },
+  {
+    keywords: ['ai', 'model', 'how', 'work', 'accurate', 'technology'],
+    reply: "NeuroGuardian uses an ensemble of **Swin Transformer + UNet + ResNet34** models trained on clinical brain scan datasets. 🤖\n\nThe system analyzes pixel patterns, stroke indicators, and clinical data to deliver confidence-scored predictions.",
+  },
+  {
+    keywords: ['neuroguardian', 'what', 'platform', 'about', 'features'],
+    reply: "**NeuroGuardian** is an AI-powered stroke detection and risk prediction platform. 🧠\n\nKey features include:\n• Stroke risk prediction from clinical data\n• Brain scan AI analysis (MRI/CT)\n• Nearby hospital finder\n• Medical report generation & history tracking",
+  },
+];
+
+function getLocalFallbackResponse(lastUserMessage) {
+  const msg = lastUserMessage?.toLowerCase() || '';
+  for (const item of FALLBACK_RESPONSES) {
+    if (item.keywords.some((kw) => msg.includes(kw))) {
+      return item.reply;
+    }
+  }
+  return "I'm NeuroBot, your NeuroGuardian assistant. 🧠\n\nI can help you with **stroke risk prediction**, **brain scan uploads**, **hospital finder**, and navigating the dashboard. What would you like to know?";
+}
 
 // ─── System prompt ───────────────────────────────────────────────────────────
 const SYSTEM_CONTEXT = `You are NeuroBot, a friendly and professional AI support assistant for NeuroGuardian — an advanced AI-powered stroke risk prediction and brain scan analysis platform.
@@ -26,10 +74,8 @@ Respond naturally as if chatting. Be warm but concise.`;
 
 // ─── Call Gemini ─────────────────────────────────────────────────────────────
 async function callGemini(messages) {
-  // Build conversation turns — user/model alternating
   const turns = [];
 
-  // Inject system context as the very first user+model pair
   turns.push({
     role: 'user',
     parts: [{ text: `[SYSTEM] ${SYSTEM_CONTEXT}\n\n[USER] ${messages[0]?.text || 'Hello'}` }],
@@ -39,7 +85,6 @@ async function callGemini(messages) {
     parts: [{ text: "Hello! I'm NeuroBot, your AI assistant for NeuroGuardian. How can I help you today?" }],
   });
 
-  // Append remaining conversation history
   messages.forEach((m) => {
     turns.push({
       role: m.role === 'bot' ? 'model' : 'user',
@@ -49,31 +94,33 @@ async function callGemini(messages) {
 
   const body = {
     contents: turns,
-    generationConfig: {
-      temperature: 0.7,
-      maxOutputTokens: 300,
-      topP: 0.9,
-    },
+    generationConfig: { temperature: 0.7, maxOutputTokens: 300, topP: 0.9 },
   };
 
-  console.log('[NeuroBot] Calling Gemini 2.0 Flash...');
+  console.log('[NeuroBot] 🔵 Trying Gemini 2.0 Flash Lite...');
 
   const res = await fetch(GEMINI_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
+    signal: AbortSignal.timeout(15000), // 15 s timeout
   });
 
   const rawText = await res.text();
-  console.log(`[NeuroBot] Response ${res.status}:`, rawText);
 
   if (!res.ok) {
-    throw new Error(`Gemini ${res.status}: ${rawText}`);
+    console.error(`[NeuroBot] ❌ Gemini failed (${res.status}):`, rawText);
+    throw new Error(`Gemini ${res.status}`);
   }
 
   const data = JSON.parse(rawText);
   const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-  if (!text) throw new Error('Empty response from Gemini');
+  if (!text) {
+    console.error('[NeuroBot] ❌ Gemini returned empty response');
+    throw new Error('Gemini empty response');
+  }
+
+  console.log('[NeuroBot] ✅ Gemini responded successfully');
   return text;
 }
 
@@ -96,7 +143,7 @@ async function callDeepSeek(messages) {
     top_p: 0.9,
   };
 
-  console.log('[NeuroBot] Calling DeepSeek...');
+  console.log('[NeuroBot] 🟡 Trying DeepSeek fallback...');
 
   const res = await fetch(DEEPSEEK_URL, {
     method: 'POST',
@@ -105,29 +152,47 @@ async function callDeepSeek(messages) {
       Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
     },
     body: JSON.stringify(body),
+    signal: AbortSignal.timeout(15000), // 15 s timeout
   });
 
   const rawText = await res.text();
-  console.log(`[NeuroBot] DeepSeek Response ${res.status}:`, rawText);
 
   if (!res.ok) {
-    throw new Error(`DeepSeek ${res.status}: ${rawText}`);
+    console.error(`[NeuroBot] ❌ DeepSeek failed (${res.status} — likely quota/billing):`, rawText);
+    throw new Error(`DeepSeek ${res.status}`);
   }
 
   const data = JSON.parse(rawText);
   const text = data?.choices?.[0]?.message?.content;
-  if (!text) throw new Error('Empty response from DeepSeek');
+  if (!text) {
+    console.error('[NeuroBot] ❌ DeepSeek returned empty response');
+    throw new Error('DeepSeek empty response');
+  }
+
+  console.log('[NeuroBot] ✅ DeepSeek responded successfully');
   return text;
 }
 
-// ─── AI Router Wrapper ───────────────────────────────────────────────────────
+// ─── AI Router — Gemini → DeepSeek → Local Fallback ─────────────────────────
 async function callAI(messages) {
+  // 1️⃣ Try Gemini
   try {
     return await callGemini(messages);
-  } catch (error) {
-    console.warn('[NeuroBot] Gemini failed, falling back to DeepSeek:', error.message);
-    return await callDeepSeek(messages);
+  } catch (geminiErr) {
+    console.warn('[NeuroBot] ⚠️ Gemini unavailable:', geminiErr.message);
   }
+
+  // 2️⃣ Try DeepSeek
+  try {
+    return await callDeepSeek(messages);
+  } catch (deepSeekErr) {
+    console.warn('[NeuroBot] ⚠️ DeepSeek unavailable:', deepSeekErr.message);
+  }
+
+  // 3️⃣ Local smart fallback — always works, never crashes UI
+  console.info('[NeuroBot] 🟢 Using local offline fallback response');
+  const lastUserMsg = messages.filter((m) => m.role === 'user').slice(-1)[0]?.text;
+  return getLocalFallbackResponse(lastUserMsg);
 }
 
 // ─── Styles ──────────────────────────────────────────────────────────────────
@@ -509,13 +574,16 @@ export default function ChatbotWidget() {
         { id: Date.now() + 1, role: 'bot', text: reply, time: new Date() },
       ]);
     } catch (err) {
-      console.error('[NeuroBot] sendMessage error:', err);
+      // callAI handles all API failures internally via local fallback.
+      // This catch only fires for genuine unexpected JS errors.
+      console.error('[NeuroBot] Unexpected error in sendMessage:', err);
+      const lastUserText = messages.filter((m) => m.role === 'user').slice(-1)[0]?.text;
       setMessages((prev) => [
         ...prev,
         {
           id: Date.now() + 1,
           role: 'bot',
-          text: `⚠️ Error: ${err.message || 'Unknown error'}. Check browser console (F12) for details.`,
+          text: getLocalFallbackResponse(lastUserText),
           time: new Date(),
         },
       ]);
