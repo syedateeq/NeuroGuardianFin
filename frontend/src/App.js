@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './components/dashboard/Dashboard';
+import ChatbotWidget from './components/ChatbotWidget';
 import './styles/globals.css';
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
   if (!showRender) {
     return (
       <Router>
+        {/* ── ChatbotWidget lives outside Routes so it persists on every page ── */}
+        <ChatbotWidget />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
@@ -41,4 +44,4 @@ function App() {
   return <RenderPage onComplete={handleRenderComplete} />;
 }
 
-export default App;
+export default App;

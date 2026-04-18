@@ -19,10 +19,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 try:
     from advanced_features.deep_learning.advanced_stroke_model import AdvancedStrokePredictor
     ADVANCED_MODEL_AVAILABLE = True
-    print("✅ Advanced model loaded successfully")
+    print("[OK] Advanced model loaded successfully")
 except ImportError as e:
     ADVANCED_MODEL_AVAILABLE = False
-    print(f"⚠️ Advanced model not available: {e}")
+    print("[WARN] Advanced model not available: {}".format(e))
     from sklearn.ensemble import RandomForestClassifier  # fallback
 
 # ============================================
@@ -52,12 +52,12 @@ if ADVANCED_MODEL_AVAILABLE:
         model_path = Path(__file__).parent.parent / 'advanced_models'
         if model_path.exists():
             advanced_model.load_model(str(model_path))
-            print(f"✅ Model loaded from {model_path}")
+            print("[OK] Model loaded from {}".format(model_path))
         else:
-            print(f"⚠️ Model not found at {model_path}. Train it first with: python -m advanced_features.test_model")
+            print("[WARN] Model not found at {}. Train it first with: python -m advanced_features.test_model".format(model_path))
             advanced_model = None
     except Exception as e:
-        print(f"⚠️ Error loading model: {e}")
+        print("[WARN] Error loading model: {}".format(e))
         advanced_model = None
 
 # ============================================

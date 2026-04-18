@@ -4,7 +4,11 @@ from django.shortcuts import render, redirect
 from django.db.models import Count
 from django.db.models import Q
 import datetime
-import xlwt
+try:
+    import xlwt
+    XLWT_AVAILABLE = True
+except ImportError:
+    XLWT_AVAILABLE = False
 from django.http import HttpResponse
 import numpy as np
 
@@ -85,6 +89,8 @@ def likeschart(request,like_chart):
 
 
 def Download_Trained_DataSets(request):
+    if not XLWT_AVAILABLE:
+        return HttpResponse("xlwt not installed. Run: pip install xlwt", status=501)
 
     response = HttpResponse(content_type='application/ms-excel')
     # decide file name

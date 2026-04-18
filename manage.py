@@ -1,6 +1,12 @@
 import os
 import sys
 
+# Force UTF-8 output on Windows to prevent UnicodeEncodeError with non-ASCII chars
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 if __name__ == "__main__":
     # Add both current directory and inner folder to path
     current_dir = os.path.dirname(__file__)

@@ -1,10 +1,10 @@
 """stroke_risk_prediction URL Configuration"""
-from django.urls import re_path, path, include  # Add 'include' here
+from django.urls import re_path, path, include
 from django.contrib import admin
-from Remote_User import views as remoteuser
-from stroke_risk_prediction import settings
-from Service_Provider import views as serviceprovider
+from django.conf import settings
 from django.conf.urls.static import static
+from Remote_User import views as remoteuser
+from Service_Provider import views as serviceprovider
 
 urlpatterns = [
     path('admin/', admin.site.urls),

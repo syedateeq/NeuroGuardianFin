@@ -36,3 +36,4 @@ psutil>=5.9.0
 
 # Production
 whitenoise>=6.5.0
+shap>=0.46.0

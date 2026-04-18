@@ -54,7 +54,7 @@ class DummyPredictor:
     Fallback predictor that always works - no dependencies
     """
     def __init__(self):
-        print("✅ Initializing DummyPredictor fallback")
+        print("[OK] Initializing DummyPredictor fallback")
         self.scaler = StandardScaler()
         # Fit scaler with dummy data
         dummy_data = np.array([
@@ -64,7 +64,7 @@ class DummyPredictor:
             [75, 1, 1, 200.0, 35.0, 1, 1, 3, 1, 3],
         ])
         self.scaler.fit(dummy_data)
-        print("✅ DummyPredictor scaler fitted")
+        print("[OK] DummyPredictor scaler fitted")
     
     def predict(self, input_data, explain=True):
         """
@@ -146,7 +146,7 @@ class DummyPredictor:
             }
             
         except Exception as e:
-            print(f"⚠️ Error in DummyPredictor: {e}")
+            print(f"[WARN] Error in DummyPredictor: {e}")
             # Return safe default
             return {
                 'risk_score': 0.3,
@@ -169,7 +169,7 @@ class SafeStrokePredictor:
     def _ensure_scaler_fitted(self):
         """Ensure scaler is fitted, fit with dummy data if needed"""
         if self.model is None:
-            print("⚠️ Model is None, cannot ensure scaler")
+            print("[WARN] Model is None, cannot ensure scaler")
             return
             
         if not hasattr(self.model, 'scaler') or self.model.scaler is None:
@@ -179,9 +179,9 @@ class SafeStrokePredictor:
         try:
             # Try to access mean_ to check if fitted
             _ = self.model.scaler.mean_
-            print("✅ Scaler already fitted")
+            print("[OK] Scaler already fitted")
         except (AttributeError, ValueError):
-            print("⚠️ Fitting scaler with representative data...")
+            print("[WARN] Fitting scaler with representative data...")
             
             # Create representative training data
             training_data = np.array([
@@ -193,12 +193,12 @@ class SafeStrokePredictor:
             ])
             
             self.model.scaler.fit(training_data)
-            print("✅ Scaler fitted successfully")
+            print("[OK] Scaler fitted successfully")
     
     def predict(self, input_data, explain=True):
         """Safe predict method - always returns something"""
         if self.model is None:
-            print("⚠️ Model is None, using fallback prediction")
+            print("[WARN] Model is None, using fallback prediction")
             fallback = DummyPredictor()
             return fallback.predict(input_data, explain)
             
@@ -206,8 +206,8 @@ class SafeStrokePredictor:
             self._ensure_scaler_fitted()
             return self.model.predict(input_data, explain=explain)
         except Exception as e:
-            print(f"⚠️ Error in model prediction: {e}")
-            print("⚠️ Using fallback predictor")
+            print(f"[WARN] Error in model prediction: {e}")
+            print("[WARN] Using fallback predictor")
             fallback = DummyPredictor()
             return fallback.predict(input_data, explain)
 
@@ -220,7 +220,7 @@ def safe_predict(model, input_data):
     """
     # If model is None, use dummy
     if model is None:
-        print("⚠️ Model is None, using DummyPredictor")
+        print("[WARN] Model is None, using DummyPredictor")
         dummy = DummyPredictor()
         return dummy.predict(input_data, explain=True)
     
@@ -235,7 +235,7 @@ def safe_predict(model, input_data):
         else:
             raise AttributeError("Model has no predict method")
     except Exception as e:
-        print(f"⚠️ Prediction failed: {e}, using fallback")
+        print(f"[WARN] Prediction failed: {e}, using fallback")
         dummy = DummyPredictor()
         return dummy.predict(input_data, explain=True)
 
@@ -243,10 +243,10 @@ def safe_predict(model, input_data):
 try:
     from advanced_features.deep_learning.advanced_stroke_model import AdvancedStrokePredictor
     ADVANCED_MODEL_AVAILABLE = True
-    print("✅ Advanced model loaded in API")
+    print("[OK] Advanced model loaded in API")
 except ImportError as e:
     ADVANCED_MODEL_AVAILABLE = False
-    print(f"⚠️ Advanced model not available in API: {e}")
+    print(f"[WARN] Advanced model not available in API: {e}")
 
 # ============================================================================
 # LOAD ADVANCED MODEL WITH MULTIPLE FALLBACKS - COMPLETELY FIXED
@@ -263,33 +263,33 @@ if ADVANCED_MODEL_AVAILABLE:
         if model_path.exists():
             # Load the model weights/parameters
             raw_model.load_model(str(model_path))
-            print(f"✅ Raw model loaded from {model_path}")
+            print(f"[OK] Raw model loaded from {model_path}")
             
             # Wrap with safe predictor
             tabular_model = SafeStrokePredictor(raw_model)
-            print(f"✅ Safe API Model wrapper created")
+            print(f"[OK] Safe API Model wrapper created")
         else:
-            print(f"⚠️ API Model not found at {model_path}, using fallback")
+            print(f"[WARN] API Model not found at {model_path}, using fallback")
             tabular_model = SafeStrokePredictor(DummyPredictor())
             
     except Exception as e:
-        print(f"⚠️ Error loading API model: {e}")
+        print(f"[WARN] Error loading API model: {e}")
         import traceback
         traceback.print_exc()
         # Set to safe fallback
         tabular_model = SafeStrokePredictor(DummyPredictor())
-        print(f"✅ Created SafeStrokePredictor with DummyPredictor fallback")
+        print(f"[OK] Created SafeStrokePredictor with DummyPredictor fallback")
 else:
     # Advanced model not available, use dummy
-    print(f"⚠️ Advanced model not available, using DummyPredictor")
+    print(f"[WARN] Advanced model not available, using DummyPredictor")
     tabular_model = SafeStrokePredictor(DummyPredictor())
 
 # FINAL CHECK - Ensure tabular_model is NEVER None
 if tabular_model is None:
-    print("⚠️ CRITICAL: tabular_model is still None, creating ultimate fallback")
+    print("[WARN] CRITICAL: tabular_model is still None, creating ultimate fallback")
     tabular_model = DummyPredictor()
 
-print(f"✅ FINAL: tabular_model is type: {type(tabular_model)}")
+print(f"[OK] FINAL: tabular_model is type: {type(tabular_model)}")
 
 # ============================================================================
 # WINNING MODELS (Medical Imaging)
@@ -304,9 +304,9 @@ def get_winning_model():
     if winning_model is None:
         try:
             winning_model = SimpleWinnerModel()
-            print("✅ SIMPLE WINNING model initialized")
+            print("[OK] SIMPLE WINNING model initialized")
         except Exception as e:
-            print(f"⚠️ Error loading model: {e}")
+            print(f"[WARN] Error loading model: {e}")
             winning_model = None
     return winning_model
 
@@ -316,9 +316,9 @@ def get_winning_classifier():
     if winning_classifier is None:
         try:
             winning_classifier = DemoClassifier()
-            print("✅ DEMO classifier initialized")
+            print("[OK] DEMO classifier initialized")
         except Exception as e:
-            print(f"⚠️ Error loading classifier: {e}")
+            print(f"[WARN] Error loading classifier: {e}")
             winning_classifier = None
     return winning_classifier
 
@@ -520,7 +520,7 @@ def predict(request):
                 if risk_level in ['HIGH RISK', 'CRITICAL RISK'] and patient:
                     trigger_alert(patient, result)
             except Exception as e:
-                print(f"⚠️ Error saving prediction: {e}")
+                print(f"[WARN] Error saving prediction: {e}")
         
         logger.info(f"Prediction made: {risk_level} (score: {risk_score})")
         
@@ -573,15 +573,15 @@ def upload_scan(request):
         # START ACTUAL PROCESSING (NO ARTIFICIAL SLEEPS)
         # ============================================
         print("\n" + "="*70)
-        print("🧠 STROKE ANALYSIS STARTED - REAL PROCESSING IN PROGRESS")
+        print("[BRAIN] STROKE ANALYSIS STARTED - REAL PROCESSING IN PROGRESS")
         print("="*70)
-        print(f"📋 Patient: {request.user.username if request.user.is_authenticated else 'Guest'}")
-        print(f"⏰ Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"[INFO] Patient: {request.user.username if request.user.is_authenticated else 'Guest'}")
+        print(f"[TIME] Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*70)
         
         # Check if file was uploaded
         if 'scan' not in request.FILES:
-            print("❌ ERROR: No scan file provided")
+            print("[ERROR] ERROR: No scan file provided")
             return Response({
                 'success': False,
                 'error': 'No scan file provided'
@@ -591,12 +591,12 @@ def upload_scan(request):
         file_name = scan_file.name
         file_size = scan_file.size / (1024 * 1024)  # MB
         
-        print(f"📁 File received: {file_name} ({file_size:.2f} MB)")
+        print(f"[FILE] File received: {file_name} ({file_size:.2f} MB)")
         
         # Validate file size
         max_size = 50 * 1024 * 1024
         if scan_file.size > max_size:
-            print(f"❌ ERROR: File too large: {file_size:.2f}MB > 50MB")
+            print(f"[ERROR] ERROR: File too large: {file_size:.2f}MB > 50MB")
             return Response({
                 'success': False,
                 'error': f'File too large. Max size: 50MB'
@@ -615,16 +615,16 @@ def upload_scan(request):
         step_time = time.time() - step_start
         
         if model is None or classifier is None:
-            print("❌ ERROR: AI models not available")
+            print("[ERROR] ERROR: AI models not available")
             return Response({
                 'success': False,
                 'error': 'AI models not available'
             }, status=status.HTTP_503_SERVICE_UNAVAILABLE)
         
-        print(f"      ✅ Models loaded successfully in {step_time:.2f} seconds")
+        print(f"      [OK] Models loaded successfully in {step_time:.2f} seconds")
         
         # STEP 2: Loading Scan Data - Actually save and parse file (takes real time)
-        print("\n[2/8] 📊 LOADING SCAN DATA...")
+        print("\n[2/8] [STATS] LOADING SCAN DATA...")
         print(f"      • Parsing DICOM/NIfTI format: {file_name}")
         print(f"      • File size: {file_size:.2f} MB")
         print("      • Extracting 3D volume data")
@@ -643,7 +643,7 @@ def upload_scan(request):
                 destination.write(chunk)
         
         file_save_time = time.time() - step_start
-        print(f"      ✅ File saved to temp location in {file_save_time:.2f} seconds")
+        print(f"      [OK] File saved to temp location in {file_save_time:.2f} seconds")
         
         print("      • Normalizing pixel intensities")
         print("      • Resampling to 1mm³ resolution")
@@ -652,7 +652,7 @@ def upload_scan(request):
         step_start = time.time()
         image_tensor, metadata = model.preprocess_image(temp_path)
         preprocess_time = time.time() - step_start
-        print(f"      ✅ Image preprocessing complete in {preprocess_time:.2f} seconds")
+        print(f"      [OK] Image preprocessing complete in {preprocess_time:.2f} seconds")
         
         # STEP 3: Swin Transformer Analysis - Actually run global analysis
         print("\n[3/8] 🔄 SWIN TRANSFORMER: ANALYZING GLOBAL BRAIN PATTERNS...")
@@ -674,11 +674,11 @@ def upload_scan(request):
         mask, confidence, volume = model.predict(image_tensor)
         prediction_time = time.time() - step_start
         print(f"      • Calculating volume estimates")
-        print(f"      ✅ Segmentation complete in {prediction_time:.2f} seconds")
+        print(f"      [OK] Segmentation complete in {prediction_time:.2f} seconds")
         print(f"      • Lesion volume calculated: {volume:.2f} mL")
         
         # STEP 5: ResNet34 Feature Extraction - Actually extract features
-        print("\n[5/8] 📈 RESNET34: EXTRACTING DEEP FEATURES...")
+        print("\n[5/8] [STATS] RESNET34: EXTRACTING DEEP FEATURES...")
         print("      • Layer 1: Edge detection")
         print("      • Layer 2: Texture analysis")
         print("      • Layer 3: Pattern recognition")
@@ -687,7 +687,7 @@ def upload_scan(request):
         # Features are extracted during classification - just a placeholder
         
         # STEP 6: Ensemble Aggregation - Combine all models
-        print("\n[6/8] 🤝 ENSEMBLE: COMBINING ALL MODEL PREDICTIONS...")
+        print("\n[6/8] [INFO] ENSEMBLE: COMBINING ALL MODEL PREDICTIONS...")
         print("      • Weighted voting mechanism")
         print("      • Cross-validation check")
         
@@ -699,10 +699,10 @@ def upload_scan(request):
         print(f"      • Classification: {classification['type']}")
         print(f"      • Confidence: {classification['confidence']:.2%}")
         print(f"      • Severity: {classification['severity']}")
-        print(f"      ✅ Classification complete in {classify_time:.2f} seconds")
+        print(f"      [OK] Classification complete in {classify_time:.2f} seconds")
         
         # STEP 7: Risk Calculation - Calculate final risk
-        print("\n[7/8] ⚖️ CALCULATING STROKE RISK...")
+        print("\n[7/8] [CALC] CALCULATING STROKE RISK...")
         print(f"      • Stroke Type: {classification['type']}")
         print(f"      • Lesion Volume: {classification['volume_ml']:.2f} mL")
         print(f"      • Confidence Score: {classification['confidence']:.2%}")
@@ -720,7 +720,7 @@ def upload_scan(request):
             report = None
         
         # STEP 8: Generating Final Report
-        print("\n[8/8] 📋 GENERATING FINAL REPORT & VISUALIZATIONS...")
+        print("\n[8/8] [INFO] GENERATING FINAL REPORT & VISUALIZATIONS...")
         print("      • Creating lesion overlay")
         
         # ACTUAL WORK: Generate and save overlay
@@ -736,7 +736,7 @@ def upload_scan(request):
         cv2.imwrite(overlay_path, cv2.cvtColor(overlay, cv2.COLOR_RGB2BGR))
         
         overlay_time = time.time() - step_start
-        print(f"      ✅ Overlay saved in {overlay_time:.2f} seconds")
+        print(f"      [OK] Overlay saved in {overlay_time:.2f} seconds")
         
         print("      • Formatting results")
         print("      • Generating clinical report")
@@ -750,9 +750,9 @@ def upload_scan(request):
         
         # FINAL
         print("\n" + "="*70)
-        print("✅ ANALYSIS COMPLETE!")
+        print("[OK] ANALYSIS COMPLETE!")
         print("="*70)
-        print(f"📊 RESULTS SUMMARY:")
+        print(f"[STATS] RESULTS SUMMARY:")
         print(f"   • Stroke Type: {classification['type']}")
         print(f"   • Severity: {classification['severity']}")
         print(f"   • Volume: {classification['volume_ml']:.2f} mL")
@@ -784,7 +784,7 @@ def upload_scan(request):
         return Response(response_data)
         
     except Exception as e:
-        print(f"\n❌ ERROR: {str(e)}")
+        print(f"\n[ERROR] ERROR: {str(e)}")
         import traceback
         traceback.print_exc()
         
@@ -808,9 +808,9 @@ def get_history(request):
         # Get the patient profile
         try:
             patient = ClientRegister_Model.objects.get(username=request.user.username)
-            print(f"✅ Found patient: {patient.username}")
+            print(f"[OK] Found patient: {patient.username}")
         except ClientRegister_Model.DoesNotExist:
-            print(f"⚠️ No patient profile for user: {request.user.username}")
+            print(f"[WARN] No patient profile for user: {request.user.username}")
             # Return empty list if no patient profile
             return Response({
                 'success': True,
@@ -819,7 +819,7 @@ def get_history(request):
         
         # Get ALL predictions (not filtered by anything)
         predictions = stroke_risk_prediction_type.objects.all().order_by('-created_at')[:50]
-        print(f"📊 Found {predictions.count()} predictions")
+        print(f"[STATS] Found {predictions.count()} predictions")
         
         # Format the data for frontend
         history_data = []
@@ -853,7 +853,7 @@ def get_history(request):
                 'volume': 0
             })
         
-        print(f"✅ Returning {len(history_data)} formatted records")
+        print(f"[OK] Returning {len(history_data)} formatted records")
         
         return Response({
             'success': True,
@@ -861,7 +861,7 @@ def get_history(request):
         })
         
     except Exception as e:
-        print(f"❌ History error: {str(e)}")
+        print(f"[ERROR] History error: {str(e)}")
         import traceback
         traceback.print_exc()
         return Response({
@@ -911,7 +911,7 @@ def get_stats(request):
             }
         })
     except Exception as e:
-        print(f"❌ Stats error: {str(e)}")
+        print(f"[ERROR] Stats error: {str(e)}")
         return Response({
             'success': False,
             'error': str(e)
@@ -967,16 +967,16 @@ def _google_places_search(lat, lng, radius, api_key):
         f"&key={api_key}"
     )
     
-    print(f"📍 Google Places search: lat={lat}, lng={lng}, radius={radius}")
+    print(f"[GPS] Google Places search: lat={lat}, lng={lng}, radius={radius}")
     resp = http_requests.get(search_url, timeout=10)
     data = resp.json()
     
     if data.get('status') != 'OK':
-        print(f"⚠️ Google Places status: {data.get('status')}, error: {data.get('error_message', 'none')}")
+        print(f"[WARN] Google Places status: {data.get('status')}, error: {data.get('error_message', 'none')}")
         return []
     
     results = data.get('results', [])[:15]
-    print(f"📍 Google Places found {len(results)} hospitals, enriching with Details API...")
+    print(f"[GPS] Google Places found {len(results)} hospitals, enriching with Details API...")
     
     for place in results:
         place_id = place.get('place_id')
@@ -1035,11 +1035,11 @@ def _google_places_search(lat, lng, radius, api_key):
                             hospital['emergency'] = '24/7 Emergency'
                     
             except Exception as e:
-                print(f"   ⚠️ Details API error for {name}: {e}")
+                print(f"   [WARN] Details API error for {name}: {e}")
         
         hospitals.append(hospital)
     
-    print(f"✅ Enriched {len(hospitals)} hospitals with real details")
+    print(f"[OK] Enriched {len(hospitals)} hospitals with real details")
     return hospitals
 
 def _overpass_search(lat, lng, radius):
@@ -1057,7 +1057,7 @@ def _overpass_search(lat, lng, radius):
     );
     out body center;"""
     
-    print(f"📍 Overpass search: lat={lat}, lng={lng}, radius={radius}")
+    print(f"[GPS] Overpass search: lat={lat}, lng={lng}, radius={radius}")
     resp = http_requests.post(
         overpass_url,
         data={'data': query},
@@ -1065,7 +1065,7 @@ def _overpass_search(lat, lng, radius):
     )
     data = resp.json()
     elements = data.get('elements', [])
-    print(f"📍 Overpass returned {len(elements)} elements")
+    print(f"[GPS] Overpass returned {len(elements)} elements")
     
     for el in elements:
         tags = el.get('tags', {})
@@ -1148,7 +1148,7 @@ def get_hospitals(request):
                 hospitals = _google_places_search(lat, lng, radius, google_key)
                 source = 'google_places'
             except Exception as e:
-                print(f"⚠️ Google Places failed: {e}")
+                print(f"[WARN] Google Places failed: {e}")
         
         # 2) Fallback to OpenStreetMap Overpass
         if not hospitals:
@@ -1156,9 +1156,9 @@ def get_hospitals(request):
                 hospitals = _overpass_search(lat, lng, radius)
                 source = 'openstreetmap'
             except Exception as e:
-                print(f"⚠️ Overpass failed: {e}")
+                print(f"[WARN] Overpass failed: {e}")
         
-        print(f"✅ Returning {len(hospitals)} hospitals (source: {source})")
+        print(f"[OK] Returning {len(hospitals)} hospitals (source: {source})")
         
         return Response({
             'success': True,
@@ -1168,7 +1168,7 @@ def get_hospitals(request):
         })
         
     except Exception as e:
-        print(f"❌ Hospital API Error: {e}")
+        print(f"[ERROR] Hospital API Error: {e}")
         import traceback
         traceback.print_exc()
         return Response({
